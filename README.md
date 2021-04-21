@@ -25,9 +25,9 @@ Notification must be sent when a new report is available.
 List the dependencies of the Analysis-functionality.
 
 1. Access to the Server containing the telemetrics in a csv file
-2. Required data availability in CSV file( Includes readings and recorded timestamp)
-3. Availability of CSV file on server
-4. Permission to read available CSV file on server
+2. Library to read CSV file in program & Availability of CSV file on server
+3. Permission to read available CSV file on server
+4. Library for PDF write
 
 
 ### Mark the System Boundary
