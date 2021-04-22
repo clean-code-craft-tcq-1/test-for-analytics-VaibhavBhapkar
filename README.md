@@ -27,7 +27,10 @@ List the dependencies of the Analysis-functionality.
 1. Access to the Server containing the telemetrics in a csv file
 2. Library to read CSV file in program & Availability of CSV file on server
 3. Permission to read available CSV file on server
-4. Library for PDF write
+4. Library for PDF File Generation
+5. Access to path where PDF file needs to be stored
+6. Libarary based on the notification method
+7. Threshold values for battery
 
 
 ### Mark the System Boundary
@@ -38,10 +41,10 @@ What is included in the software unit-test? What is not? Fill this table.
 |---------------------------|---------------|---
 Battery Data-accuracy       | No            | We do not test the accuracy of data
 Computation of maximum      | Yes           | This is part of the software being developed
-Off-the-shelf PDF converter | Yes           | This is part of software being developed( Includes logic for converting data into PDF file
-Counting the breaches       | Yes           | This is part of the software being developed (Assuming data is available in file then reading data and finding breaches)
-Detecting trends            | Yes           | This is part of the software being developed (Assuming data is available in file with valid format then reading data and finding trends)
-Notification utility        | Yes           | This is a one of the feature of software being developed
+Off-the-shelf PDF converter | Yes           | This is part of software being developed( Includes logic for converting data into PDF file )
+Counting the breaches       | Yes           | This is part of the software being developed ( Data availability check in file & then reading data and finding breaches )
+Detecting trends            | Yes           | This is part of the software being developed ( Data availability check in file & then reading data and finding trends)
+Notification utility        | Yes           | This is a one of the feature of software being developed ( Based on the file availability generate notification)
 
 ### List the Test Cases
 
